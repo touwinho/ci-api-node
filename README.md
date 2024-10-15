@@ -1,1 +1,1 @@
-# ci-api-node
+# workshops
