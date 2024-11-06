@@ -3,7 +3,7 @@ name: Node.js CI
 env:
   USERNAME: ${{ secrets.USERNAME }}
   PASSWORD: ${{ secrets.PASSWORD }}
-  USERID: ${{ secrets.USERID }}
+  USER_ID: ${{ secrets.USER_ID }}
 
 on:
   push:
