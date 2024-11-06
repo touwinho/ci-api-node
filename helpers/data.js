@@ -1,2 +1,7 @@
-export const UserID = '384f7de6-87e3-49fb-bad0-70e39b086ab3'
+import 'dotenv/config'
+
 export const baseUrl = 'https://demoqa.com'
+export const userName = process.env.USERNAME
+export const password = process.env.PASSWORD
+export const userId = process.env.USERID
+export const isbn = '9781491950296'
