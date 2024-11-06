@@ -1,5 +1,10 @@
 name: Node.js CI
 
+env:
+  USERNAME: ${{ secrets.USERNAME }}
+  PASSWORD: ${{ secrets.PASSWORD }}
+  USERID: ${{ secrets.USERID }}
+
 on:
   push:
     branches: ['master']
